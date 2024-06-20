@@ -4,10 +4,10 @@ The main functionality includes adding accounts, reading account details, and tr
 The service ensures thread-safety during money transfers and includes a notification system for account holders during transfers.
 
 ## Features
-# Add a New Account: Create a new account with a unique ID and an initial balance.
-# Get Account Details: Retrieve details of an account using its ID.
-# Transfer Money: Transfer money between accounts securely with thread-safety.
-# Notification System: Notify account holders about the transfer details.
+1. Add a New Account: Create a new account with a unique ID and an initial balance.
+2. Get Account Details: Retrieve details of an account using its ID.
+3. Transfer Money: Transfer money between accounts securely with thread-safety.
+4. Notification System: Notify account holders about the transfer details.
 
 ## Setup Instructions
 ## Prerequisites
