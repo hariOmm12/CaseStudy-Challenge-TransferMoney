@@ -4,13 +4,13 @@ The main functionality includes adding accounts, reading account details, and tr
 The service ensures thread-safety during money transfers and includes a notification system for account holders during transfers.
 
 ## Features
-`` Add a New Account: Create a new account with a unique ID and an initial balance.
-`` Get Account Details: Retrieve details of an account using its ID.
-`` Transfer Money: Transfer money between accounts securely with thread-safety.
-`` Notification System: Notify account holders about the transfer details.
+## Add a New Account: Create a new account with a unique ID and an initial balance.
+## Get Account Details: Retrieve details of an account using its ID.
+## Transfer Money: Transfer money between accounts securely with thread-safety.
+## Notification System: Notify account holders about the transfer details.
 
 ## Setup Instructions
-`` Prerequisites
+## Prerequisites
     JDK 17
     Maven
     An IDE with Lombok plugin installed (e.g., IntelliJ IDEA, Eclipse)Installation
@@ -20,13 +20,13 @@ The service ensures thread-safety during money transfers and includes a notifica
     ### Run the Application: mvn spring-boot:run
     
 ## Documentation
-    API documentation :- http://localhost:18080/swagger-ui/index.html#/
+    ### API documentation :- http://localhost:18080/swagger-ui/index.html#/
     
 ## Usage
 The application exposes a REST API for interacting with accounts. Below are some sample endpoints:
 
-``  Add Account:
-      Endpoint:
+##  Add Account:
+     ### Endpoint:
               POST http://localhost:18080/v1/accounts
               Content-Type: application/json
               Request Body:
@@ -35,12 +35,12 @@ The application exposes a REST API for interacting with accounts. Below are some
                               "accountId": "111",
                               "balance": 100.00
                           }
-``   Get Account:
-        Endpoint: 
+##   Get Account:
+      ###  Endpoint: 
                 GET http://localhost:18080/v1/accounts/{accountId}
                 
-`` Transfer Money:
-        Endpoint:
+## Transfer Money:
+     ###   Endpoint:
                 POST http://localhost:18080/v1/accounts/transfer
                 Content-Type: application/json
                 Request Body:
